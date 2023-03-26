@@ -1,0 +1,64 @@
+       * {
+           /* "*" - ко всему документу*/
+           font-family: 'Open Sans', sans-serif;
+        
+            }
+     a:link {
+            text-decoration: none;
+                }
+        
+     a:hover {
+            text-decoration: underline;
+                }
+    
+
+       span {
+           /*tag*/
+           color: red;
+            font-weight: 700;
+           /*!important - высокий приоритет */
+
+       }
+
+       .grifindor {
+           /*class*/
+           color: #037211;
+       }
+
+       #african {
+           /*id*/
+           color: chocolate;
+       }
+
+       p {
+           font-size: 16px;
+           font-family: 'Open Sans', sans-serif;
+           font-weight: 400;
+           /*color: rgb(0, 0, 0);*/
+        /*color: rgba(233, 5, 5, 0.363); rgbA - c прозрачностью*/
+       }
+      
+       h1 {
+           font-family: cursive;
+          /* text-shadow:0.5px 0.5px 5px #6e6e6e;*/
+       }
+
+       img {
+            width: 450px;
+            height: 450px;
+            margin-right: 150 px;
+            border-radius:50%;
+            border: 2px solid rgb(190, 190, 190);
+            border-bottom-left-radius: 20px;
+            box-shadow: 10px 10px 25px #6e6e6e; /*осьХ осьУ размытие цвет*/
+            
+       }
+
+    table {
+        border: #b3b3b3;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 15px;
+    }
