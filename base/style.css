@@ -1,0 +1,30 @@
+       * {
+           /*ко всему документу*/
+           font-family: 'Open Sans', sans-serif;
+       }
+
+       span {
+           /*tag*/
+           color: red;
+           /*!important - высокий приоритет */
+
+       }
+
+       .grifindor {
+           /*class*/
+           color: aqua;
+       }
+
+       #african {
+           /*id*/
+           color: chocolate;
+       }
+
+       p {
+           font-size: 16px;
+           font-family: 'Open Sans', sans-serif;
+       }
+
+       h1 {
+           font-family: cursive;
+       }
