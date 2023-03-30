@@ -3,32 +3,92 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+
 body {
-    background-color:antiquewhite;
+    background-color: antiquewhite;
 }
+
 h1 {
+    border-radius: 10px;
+    font-size: 42px;
     text-align: center;
-    margin-top: 25px;
+    width: max-content;
+    text-shadow: white 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0.542);
+    padding: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
-.header {
-    
-}
+
 .main {
     width: 960px;
     margin: auto;
 }
+
 ul {
     list-style: none;
 }
+
 h4 {
     font-size: 24px;
     font-weight: 400;
     margin: 50px 0 10px 0;
 }
+
 li {
     margin-bottom: 25px;
 }
+
 p {
     margin-bottom: 10px;
     line-height: 1.5;
+}
+
+.header {
+    height: 400px;
+    background-image: url(https://www.deccanherald.com/sites/dh/files/articleimages/2023/01/08/coffeeistock-1179035-1673176833.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(91, 78, 70, 0.722) 0px 2px 10px;
+}
+
+.stick {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+}
+
+.messager {
+    border-radius: 50%;
+    border: 1px solid rgb(174, 134, 78);
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.messager img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.messager:hover {
+    box-shadow: 1px 2px 10px grey;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+ul li img {
+    float: right;
+    border-radius: 15px;
+    margin-left: 50px;
+    width: 300px;
 }
