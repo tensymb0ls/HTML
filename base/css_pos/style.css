@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2500px;
+}
+
+div {
+    width: 250px;
+    height: 50px;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    background-color: rgb(69, 144, 210);
+    height: 450px;
+}
+
+.item1 {
+    position: static;
+    /* teft, right, top, buttom - не раютают*/
+}
+
+.item2 {
+    position: relative;
+    /* место за блоком сохраняется*/
+    left: 250px;
+    z-index: 100;
+}
+
+.item3 {
+    position: absolute;
+    /* место за блоком схлопывается*/
+    left: 250px;
+    z-index: 99;
+}
+
+.item4 {
+    position: fixed;
+    left: 150px;
+    top: 35px;
+    z-index: 2;
+}
+
+.item5 {
+    position: sticky;
+    /* как только расстояние до топ при скролле достигнет 15 пкс блок "прилипнет"*/
+    top: 15px;
+    z-index: 1;
+}

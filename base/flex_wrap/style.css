@@ -1,0 +1,31 @@
+/* Свойства для Flex-container */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*justify-content: space-between;*/
+
+}
+
+/*mobile first*/
+
+@media (min-width: 720px) {
+  .container {
+    flex-direction: row;
+  }
+}

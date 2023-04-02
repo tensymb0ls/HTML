@@ -2,7 +2,175 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: darkslategray;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-left: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+ul li:hover {
+    color: aquamarine;
+}
+
+.user {
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    height: 50px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+body {
+    background-image: url(./images/2.jpg);
+}
+
+main {
+    display: flex;
+
+    /*flex-direction: row-reverse;*/
+}
+
+aside {
+    min-height: 80vh;
+    width: 30vw;
+    border: 1px solid rgb(130, 0, 0);
+}
+
+section {
+    min-height: 80vh;
+    height: 100%;
+    width: 70vw;
+    border: 1px solid rgb(24, 0, 112);
+}
+
+.card {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    gap: 15px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.top-box {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.top-box p {
+    text-align: center;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    color: aliceblue;
+}
+
+.prim-butt {
+    padding: 5px 25px;
+    background-color: rgb(125, 0, 0);
+}
+
+.second-butt {
+    padding: 5px 35px;
+    background-color: rgb(0, 44, 64);
+}
+
+.characters {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/*
 header {
     height: 80px;
     background-color: bisque;
 }
+
+main {
+    height: 728px;
+    background-color: antiquewhite;
+}
+
+.user img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    position: relative;
+    left: 0%;
+    top: 15%;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+
+.nav>ul,
+ul li {
+    display: inline;
+}
+
+.inline {
+    display: inline;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+ul {
+    position: relative;
+    top: -5%;
+    left: 25%;
+}
+
+.user {
+    position: relative;
+    left: 50%;
+    top: 20%;
+}
+
+span {
+    position: relative;
+    bottom: 15px;
+    margin-left: 10px;
+}
+*/
