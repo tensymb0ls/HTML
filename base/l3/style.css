@@ -1,14 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Maven Pro', sans-serif;
+    
 }
 
 header {
-    background-color: darkslategray;
+    background-color: rgb(6, 18, 23);
     display: flex;
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
+    min-height: 70px;
 }
 
 ul {
@@ -17,13 +20,29 @@ ul {
 }
 
 ul li {
-    margin-left: 5px;
-    cursor: pointer;
-    color: aliceblue;
+    margin-left: 10px;
+    font-size: large;
 }
 
-ul li:hover {
-    color: aquamarine;
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: cyan;
+}
+
+ul li a:visited {
+    color: white;
+
+}
+
+.logo {
+    display: flex;
 }
 
 .user {
@@ -53,15 +72,20 @@ main {
 
 aside {
     min-height: 80vh;
-    width: 30vw;
-    border: 1px solid rgb(130, 0, 0);
+    width: 15vw;
+    min-width: 200px;
+   /* border: 1px solid rgb(240, 247, 255);*/
 }
 
 section {
     min-height: 80vh;
     height: 100%;
-    width: 70vw;
-    border: 1px solid rgb(24, 0, 112);
+    width: 100%;
+   /* border: 1px solid rgb(240, 247, 255);*/
+}
+footer {
+    min-height: 10vh;
+    background-color: rgba(0, 0, 0, 0.876);
 }
 
 .card {
@@ -73,10 +97,14 @@ section {
     border: 1px solid white;
     padding: 10px;
     border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.498);
 }
 
 .card img {
     width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .top-box {
@@ -86,13 +114,15 @@ section {
 }
 
 .top-box p {
-    text-align: center;
+    text-align: left;
+    text-shadow: 1px 1px 1px black;
 }
 
 .bottom-box {
     display: flex;
     justify-content: center;
     gap: 10px;
+    vertical-align: bottom;
 }
 
 button {
@@ -101,12 +131,12 @@ button {
 
 .prim-butt {
     padding: 5px 25px;
-    background-color: rgb(125, 0, 0);
+    background-color: rgb(155, 42, 97);
 }
 
 .second-butt {
     padding: 5px 35px;
-    background-color: rgb(0, 44, 64);
+    background-color: rgb(23, 61, 137);
 }
 
 .characters {
@@ -116,6 +146,99 @@ button {
     flex-wrap: wrap;
 }
 
+.delimiter {
+    display: flex;
+    background-color: rgb(9, 112, 192);
+    max-height: 50vh;
+    min-height: 1vh;
+    width: 100%;
+}
+
+.delimiter img {
+    border-radius: 0 5vw 5vw 0;
+    width: 95%;
+}
+
+.delimiter-image {
+    display: flex;
+    border-radius: 0 5vw 5vw 0;
+    background-color: aliceblue;
+    width: 40vw;
+    
+    box-shadow: 2px 0px 5px rgb(34, 71, 104);
+}
+
+.delimiter-content {
+    display: flex;
+    
+    color: aliceblue;
+    padding-left: 3vw;
+    padding-top: 1vw;
+flex-direction: column;
+width: 60vw;
+}
+.delimiter-content  h2 {
+    display: flex;
+    font-size: 48px;
+}
+.delimiter-content p {
+    
+    font-size: 16px;
+    line-height: 150%;
+}
+.delimiter-content a, a:visited {
+    
+    color: aliceblue;
+    text-decoration: none;
+}
+.delimiter-content a:hover {
+    text-decoration: underline;
+    
+}
+.second_block {
+    display: flex;
+    background-image: url(./images/ship_1800.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    width: 100%;
+   
+ 
+}
+.sec_bl_content p {
+    color: aliceblue;
+font-size: 16px;
+    line-height: 150%;
+}
+.sec_bl_content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 50px;
+    padding: 20px;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+.sec_bl_content h2 {
+    display: flex;
+    font-size: 48px;
+    
+}
+.aside {
+    border: 1px solid yellow;
+    margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    height: 100%;
+}
 /*
 header {
     height: 80px;
