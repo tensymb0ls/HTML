@@ -103,12 +103,14 @@ footer {
     color: aliceblue;
     display: flex;
     flex-direction: column;
-    max-width: 320px;
+    max-width: 25vw;
+    min-width: 10vw;
     gap: 15px;
     border: 1px solid white;
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.498);
+    justify-content: space-between;
 }
 
 .card img {
@@ -133,7 +135,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 10px;
-    vertical-align: bottom;
+
 }
 
 button {
@@ -165,18 +167,21 @@ button {
     width: 100%;
 }
 
-.delimiter img {
-    border-radius: 0 5vw 5vw 0;
-    width: 95%;
-}
-
 .delimiter-image {
     display: flex;
     border-radius: 0 5vw 5vw 0;
     background-color: aliceblue;
-    width: 40vw;
+    width: 30vw;
 
     box-shadow: 2px 0px 5px rgb(34, 71, 104);
+}
+
+.delimiter_img {
+    border-radius: 0 5vw 5vw 0;
+    width: 95%;
+    background-image: url(./images/join_team.jpg);
+    background-position: top center;
+    background-size: cover;
 }
 
 .delimiter-content {
