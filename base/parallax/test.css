@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax [class*="bg_"] {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+}
+
+.parallax .bg_one {
+    background-image: url(./2.jpg);
+}
+
+.parallax .bg_two {
+    background-image: url(./ship_1800.jpeg);
+}
