@@ -85,6 +85,7 @@ aside {
     width: 15vw;
     min-width: 200px;
     /* border: 1px solid rgb(240, 247, 255);*/
+
 }
 
 section {
@@ -92,11 +93,25 @@ section {
     height: 100%;
     width: 100%;
     /* border: 1px solid rgb(240, 247, 255);*/
+
 }
 
 footer {
-    min-height: 10vh;
+    min-height: 5vh;
     background-color: rgba(0, 0, 0, 0.876);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer {
+    padding: 25px;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.footer ul li {
+    margin-left: 10px;
 }
 
 .card {
@@ -111,6 +126,7 @@ footer {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.498);
     justify-content: space-between;
+    line-height: 130%;
 }
 
 .card img {
@@ -157,6 +173,7 @@ button {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .delimiter {
@@ -248,77 +265,67 @@ a:visited {
 }
 
 .aside {
-    border: 1px solid yellow;
+    
     margin: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 50px 0px;
 }
 
 .menu-list {
     display: flex;
     flex-direction: column;
     color: aliceblue;
-    font-size: 20px;
     font-weight: 700;
     height: 100%;
+    text-shadow: 2px 2px 4px black;
 }
 
-/*
-header {
-    height: 80px;
-    background-color: bisque;
+.menu-list li:not(:last-child) {
+    margin-top: 20px;
+    font-size: 30px;
 }
-
-main {
-    height: 728px;
-    background-color: antiquewhite;
-}
-
-.user img {
-    width: 50px;
-    height: 50px;
-}
-
-.logo {
-    position: relative;
-    left: 0%;
-    top: 15%;
-}
-
-.ml-5 {
-    margin-left: 5px;
-}
-
-
-.nav>ul,
-ul li {
-    display: inline;
-}
-
-.inline {
-    display: inline;
-}
-
-.pointer {
+.menu-list li:hover {
+    text-decoration: underline;
     cursor: pointer;
+    transition: 0.5s;
 }
 
-ul {
-    position: relative;
-    top: -5%;
-    left: 25%;
+#logout {
+    margin-top: 50px;
 }
 
-.user {
-    position: relative;
-    left: 50%;
-    top: 20%;
+.heading {
+    display: flex;
+    text-align: left;
+    font-size: 43px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 20px 20px 0 20px;
+    text-shadow: 2px 2px 4px black;
 }
-
-span {
-    position: relative;
-    bottom: 15px;
-    margin-left: 10px;
+.error {
+width: 768px;
+margin: auto;
+margin-top: 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
-*/
+.error p:not(#page, #error) {
+    text-align: center;
+    line-height: 150%;
+}
+#error {
+font-size: 140px;
+font-weight: 700;
+}
+#page {
+    font-size: 40px;
+    
+}
+#error_image {
+    margin-top: 30px;
+    height: 300px;
+}
