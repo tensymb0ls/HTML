@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px dotted rgb(182, 0, 0);
+    justify-content: center;
+    height: 400px;
+    align-items: baseline;
+}
+
+.item {
+    display: flex;
+    border: 1px solid black;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+border-radius: 5%;
+    
+}
+/*--------flex-basis начальная ширина-----------*/
+.item-1 {
+    background-color: red;
+    /* flex-basis: 25%; */
+    flex-grow: 1;
+    flex-shrink: 0; /* не сжимается */
+    /* flex: 1 0 500px; последовательность: grow shrink basis */
+    align-self: center;
+}
+
+.item-2 {
+    background-color: orange;
+    /* flex-basis: 20%; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 1; */
+    align-self: flex-end;
+    flex: 1 1 20%;
+}
+
+.item-3 {
+    background-color: green;
+    /* flex-basis: 25%; */
+    flex-grow: 3;
+    align-self: center;
+}
+
+.item-4 {
+    background-color: violet;
+    /* flex-basis: 25%; */
+    flex-grow: 4;
+}
+.item-5 {
+    background-color: blue;
+    /* flex-basis: 25%; */
+    flex-grow: 5;
+    align-self: center;
+}
+.item-6 {
+    background-color: dimgrey;
+    /* flex-basis: 25%; */
+    flex-grow: 6;
+    align-self: stretch;
+}

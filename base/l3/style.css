@@ -92,6 +92,7 @@ section {
     min-height: 80vh;
     height: 100%;
     width: 100%;
+    flex: 3 1 auto;
     /* border: 1px solid rgb(240, 247, 255);*/
 
 }
@@ -118,15 +119,16 @@ footer {
     color: aliceblue;
     display: flex;
     flex-direction: column;
-    max-width: 25vw;
-    min-width: 10vw;
+    flex: 1 2 20vw;
+    /* max-width: 25vw; */
+    /* min-width: min-content; */
     gap: 15px;
     border: 1px solid white;
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.498);
-    justify-content: space-between;
     line-height: 130%;
+    justify-content: space-between;
 }
 
 .card img {
@@ -174,6 +176,7 @@ button {
     gap: 30px;
     flex-wrap: wrap;
     margin-bottom: 40px;
+    
 }
 
 .delimiter {
@@ -265,9 +268,9 @@ a:visited {
 }
 
 .aside {
-    
     margin: 20px;
     display: flex;
+    flex: 1 1 auto;
     justify-content: center;
     padding: 50px 0px;
 }
@@ -329,3 +332,37 @@ font-weight: 700;
     margin-top: 30px;
     height: 300px;
 }
+.burger {
+    display: none;
+    color: aliceblue;
+    font-size: 40px;
+}
+.burger:hover{
+    color: rgb(148, 127, 255);
+    cursor: pointer;
+}
+ @media(max-width: 700px) {
+    .nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+ }
+ @media(max-width: 1200px) {
+     .card img {
+         float: none;
+         width: 100%;
+         margin: 0 0 20px 0;
+     }
+ }
+
+ @media(max-width: 700px) {
+     .nav {
+         display: none;
+     }
+
+     .burger {
+         display: block;
+     }
+ }
