@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Maven+Pro:wght@400;800&display=swap"
         rel="stylesheet">
+
     <title>HerbEra</title>
 </head>
 
@@ -22,12 +23,52 @@
             </div>
             <nav class="navbar">
                 <ul class="flex">
-                    <li>All Products</li>
-                    <li>Body</li>
-                    <li>Wellbeing</li>
-                    <li>Blog</li>
-                    <li>Health Test</li>
-                    <li>Become Wholesaler</li>
+                    <li class="hover"><p>All Products</p>
+                    <ul class="drop">
+                        <li>Formulas</li>
+                        <li>Herbal Extracts</li>
+                        <li>Capsules</li>
+                    </ul></li>
+                    <li class="hover"><p>Body</p>
+                    <ul class="drop">
+                        <li>Brain Support</li>
+                        <li>Hormones</li>
+                        <li>Respiratory</li>
+                        <li>Cardiovascular</li>
+                        <li>Heart Health</li>
+                        <li>Cholesterol and Blood Sugar</li>
+                        <li>Digestion</li>
+                        <li>Liver Health</li>
+                        <li>Urinary</li>
+                        <li>Menopause</li>
+                        <li>Reproductive</li>
+                        <li>Prostate</li>
+                        <li>Joint and Muscle</li>
+                    </ul></li>
+                    <li class="hover"><p>Wellbeing</p>
+                        <ul class="drop">
+                            <li>Vision</li>
+                            <li>Detox/Cleanse</li>
+                            <li>Energy</li>
+                            <li>Nerves</li>
+                            <li>Mood Balance</li>
+                            <li>Immune</li>
+                            <li>Relaxation and Stress</li>
+                            <li>Minor Pain</li>
+                            <li>Recovery</li>
+                            <li>Women's Health</li>
+                            <li>Men's Health</li>
+                        </ul>
+                    </li>
+                    <li class="hover"><p>Blog</p>
+                    <ul class="drop">
+                        <li>HerbEra's Life</li>
+                        <li>Library of Nature</li>
+                        <li>Get to know yourself</li>
+                        <li>How the body works</li>
+                    </ul></li>
+                    <li><p>Health Test</p></li>
+                    <li><p>Become Wholesaler</p></li>
 
                 </ul>
             </nav>
@@ -43,6 +84,7 @@
                     <input type="text" placeholder="Search..">
                 </div>
                 <div class="sale">Sale %</div>
+                <div class="sale_compact">%</div>
                 <div class="user">
                     <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -65,6 +107,7 @@
         </div>
     </header>
     <main>
+        <!-- Goods -->
         <section class="flex">
             <div class="flex page_width">
                 <div class="goods m35">
@@ -89,6 +132,101 @@
                 </div>
             </div>
         </section>
+       <!-- Spring promo -->
+        <section class="flex column vert_pad_55">
+<div class="flex vert_pad_55 caps_spasing"><h3>SPRING PROMO CODES</h3></div>
+<ul class="flex page_width">
+    <li class="promo m20">
+        <img src="./images/DETOX20_360x.jpg" alt="Detox">
+        <h4>Natural products for Detox</h4>
+        <p>Save 20% with a promo code – DETOX20</p>
+        <button>BUY NOW</button>
+    </li>
+    <li class="promo m20">
+        <img src="./images/VISION20_360x.jpg" alt="Vision">
+        <h4>Herbs for eye health</h4>
+        <p>Get 20% off with promo code - VISION20</p>
+        <button>BUY NOW</button>
+    </li>
+    <li class="promo m20">
+        <img src="./images/FASTER20_360x.jpg" alt="fASTER">
+        <h4>Herbal extracts for joint and muscles</h4>
+        <p>Keep 20% off with promo code - FASTER20</p>
+        <button>BUY NOW</button>
+    </li>
+</ul>
+        </section>
+        <!-- OUR BEST SELLERS -->
+        <section class="flex column vert_pad_55">
+            <div class="flex caps_spasing"><h3>OUR BEST SELLERS</h3></div>
+                <ul class="flex page_width vert_pad_55">
+                    <li class="promo m20">
+                        <img src="./images/Ashwagandha_af_2oz_PRE_360x.png" alt="Ashwagandha">
+                        <h4>Ashwagandha Tincture</h4>
+                        <p>$21.97</p>
+                    </li>
+                    <li class="promo m20">
+                        <img src="./images/Cryptolepis_af_2oz_PRE_360x.png" alt="Cryptolepis">
+                        <h4>Cryptolepis Tincture</h4>
+                        <p>$21.97</p>
+                    </li>
+                    <li class="promo m20">
+                        <img src="./images/Lomatium_af_2oz_PRE_360x.png" alt="Lomatium">
+                        <h4>Lomatium Tincture</h4>
+                        <p>$21.97</p>
+                    </li>
+                    <li class="promo m20">
+                        <img src="./images/Quinine_af_2oz_PRE_360x.png" alt="Quinine">
+                        <h4>Quinine Tincture</h4>
+                        <p>$21.97</p>
+                    </li>
+                </ul>
+            <div><button>VIEW ALL</button></div>
+        </section>
+<!-- OUR QUALITY -->
+        <section class="flex column vert_pad_55">
+            <div class="flex caps_spasing">
+                <h3>OUR QUALITY</h3>
+            </div>
+            <ul class="flex page_width vert_pad_55">
+                <li class="goods m20">
+                    <img src="./icons/made_in_usa_50x50@2x.png" alt="Made in USA">
+                    <p>Here in the USA, we create extracts and capsules to empower people to be healthier and happier.</p>
+                </li>
+                <li class="goods m20">
+                    <img src="./icons/fda_50x50@2x.png" alt="FDA">
+                    <p>We are proud to meet all the standards of the Food and Drug Administration.</p>
+                </li>
+                <li class="goods m20">
+                    <img src="./icons/gmp_50x50@2x.png" alt="GMPm">
+                    <p>Our products are created in a facility that meets all necessary sanitation and safety requirements.</p>
+                </li>
+                <li class="goods m20">
+                    <img src="./icons/lab_tested_50x50@2x.png" alt="Lab  tested">
+                    <p>Our products are third lab tested, so you can be completely confident in the product you have chosen.</p>
+                </li>
+            </ul>
+            
+        </section>
+        <!-- ABOUT -->
+<section class="flex vert_pad_55">
+    <div class="flex page_width w_pad_35">
+        <img class="about_img" src="./images/about.jpg" alt="About">
+       <div class="flex column about">
+        <h3>About HerbEra</h3>
+        <p>
+        Our goals and values begin with integration, research, and development, marrying humanity’s timeless practice of natural
+        healing with cutting-edge scientific and technological advancement aimed for our modern way of life. Understanding that
+        plants contain a vast amount of chemical constituents, we derive from each herb those compounds which can have a direct
+        biological effect on the health of our body.
+        </p><p>
+        Medicinal properties are harnessed and extracted at a 1:3 menstruum ratio, offering high levels of bio-active compounds
+        within each dose. We thoroughly research all of our raw materials, studying their composite nature and harmonious
+        relationship to one another, through a variety of methods that couple the wisdom and traditions of the ancient past with
+        the standards of modern medicine.</p>
+        </div>
+    </div>
+</section>
     </main>
     <footer></footer>
 </body>

@@ -42,6 +42,27 @@ body {
     display: flex;
     align-items: center;
 }
+.hover {
+    position: relative;
+    cursor: pointer;
+}
+.drop {
+display: none;
+width: max-content;
+}
+.hover:hover .drop {
+    display: block;
+    position: absolute;
+    left: 0;
+    padding: 15px 5px;
+    border: 1px solid #e8e9eb;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.column {
+    flex-direction: column;
+}
 
 .logo {
     flex: 1 2 20%;
@@ -94,7 +115,20 @@ body {
     border-radius: 30px;
     line-height: 28px;
 }
-
+.sale_compact {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+    color: #a5260a;
+    font-weight: 700;
+    margin: 0 7px;
+    background: #f6eae8;
+    border-radius: 30px;
+    line-height: 28px;
+}
 .user {
     display: flex;
     height: 30px;
@@ -107,7 +141,8 @@ body {
 
 .user:hover,
 .shop:hover,
-.sale:hover {
+.sale:hover,
+.promo img:hover {
     cursor: pointer;
 }
 
@@ -133,29 +168,87 @@ main {
 
 section {
     justify-content: center;
-    background-color: aquamarine;
 }
-
+section ul {
+    list-style: none;
+}
+h3 {
+    font-size: 15px;
+}
+button {
+    user-select: none;
+    appearance: none;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 8px 15px;
+    background-color: #bfd180;
+    color: white;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    white-space: normal;
+    font-size: 13px;
+}
+div>button:hover {
+    background-color: #889e37;
+    transition: 0.3s;
+}
+ul > li > button {
+    padding: 8px 10px;
+    margin: 20px 0;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    display: inline-block;
+    background-color: transparent;
+    border-color: #bfd180;
+    border-radius: 2px;
+    color: #bfd180;
+    line-height: 1;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    white-space: normal;
+    font-family: Assistant, sans-serif;
+    touch-action: manipulation;
+}
+ul>li>button:hover {
+    box-shadow: 0 0 2px #889e37;
+    color: #a3c41d;
+    transition: 0.3s;
+}
+.caps_spasing {
+    letter-spacing: 0.1em;
+}
 .page_width {
     flex: 1;
     max-width: 1200px;
     margin: 0 55px;
-    border: 1px dotted #004ffa;
 }
 
-.goods {
+.goods, .promo {
     text-align: center;
     flex: 1;
     justify-content: space-between;
     align-self: stretch;
-    flex-wrap: wrap;
-    border: 1px dotted #ee02fb;
 }
 
 .goods p {
     font-size: 12px;
     padding-top: 10px;
-
 }
 
 .goods h4 {
@@ -165,9 +258,54 @@ section {
 .goods img {
     width: auto;
 }
+.promo {
+    width: 33.33333%;
+}
 
+.promo p {
+    padding-top: 10px;
+    color: #69727b;
+}
+.promo img {
+    width: 100%;
+}
 .m35 {
     margin: 0 35px;
+}
+.m20 {
+    margin: 0 20px;
+}
+.vert_pad_55 {
+    padding: 55px 0;
+}
+.w_pad_35 {
+    padding: 0 35px;
+}
+.about {
+    padding: 0 35px;
+    justify-content: start;
+    align-items:start;
+    font-size: 1.13333em;
+}
+.about p {
+    color: #69727b;
+    line-height: 1.5;
+    font-weight: 600;
+    font-style: normal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+}
+.about h3 {
+    font-size: 1.13333em;
+    padding-bottom:  10px;
+}
+.about_img {
+    width: 45%;
+    margin-left: 35px;
+    align-self: flex-start;
 }
 
 @media(max-width: 1280px) {
@@ -204,8 +342,20 @@ section {
         flex: 1 0;
     }
 
-
     .goods img {
-        width: 120px;
+        width: 130px;
     }
+    .promo {
+        min-width: 250px;
+    }
+    .page_width {
+        flex-wrap: wrap;
+    }
+        .sale_compact {
+            display: flex;
+            width: 60px;
+}
+.sale {
+    display: none;
+}
 }
