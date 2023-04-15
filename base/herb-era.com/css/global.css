@@ -59,11 +59,45 @@ width: max-content;
     border-radius: 2px;
     background-color: white;
 }
+.zoom {
+    display: none;
+    width: max-content;
+    
+}
+.hover:hover .zoom {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: #3d4246cc;
+    width: 40px;
+    height: 30px;
+    border-radius: 3px;
+    padding-top: 10px;
+    
+    }
+.transtarent {
+        display: none;
 
+}
+.hover:hover .transtarent {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.198);
+} 
 .column {
     flex-direction: column;
 }
-
+.center {
+    text-align: center;
+}
+.al_self_cent {
+align-self: center !important;
+}
 .logo {
     flex: 1 2 20%;
     flex-shrink: 5;
@@ -175,6 +209,10 @@ section ul {
 h3 {
     font-size: 15px;
 }
+.h3 { 
+    color: #3d4246;
+    letter-spacing: 0.1em;
+}
 button {
     user-select: none;
     appearance: none;
@@ -230,6 +268,11 @@ ul>li>button:hover {
     color: #a3c41d;
     transition: 0.3s;
 }
+.bold {
+    font-weight: bold;
+    color: #3d4246;
+    font-size: 16px;
+}
 .caps_spasing {
     letter-spacing: 0.1em;
 }
@@ -237,6 +280,7 @@ ul>li>button:hover {
     flex: 1;
     max-width: 1200px;
     margin: 0 55px;
+    width: 100%;
 }
 
 .goods, .promo {
@@ -268,6 +312,7 @@ ul>li>button:hover {
 }
 .promo img {
     width: 100%;
+    /* --------------margins & paddings------------- */
 }
 .m35 {
     margin: 0 35px;
@@ -281,7 +326,61 @@ ul>li>button:hover {
 .w_pad_35 {
     padding: 0 35px;
 }
-.about {
+.w_pad_50 {
+    padding: 0 50px;
+}
+  /* -------------- -------------------------------- */
+.rew_box {
+    width: 865px;
+    height: max-content;
+    margin: 0 100px;
+    padding: 50px 0;
+}
+.stars {
+    color: #ff8a00;
+    font-size: 24px;
+    align-self: flex-start;
+    margin: 0 0 10px;
+    letter-spacing:0.2em;
+    -webkit-font-smoothing: antialiased;
+}
+  .rewiew {
+      font-size: 14.5px;
+      width: 25%;
+      padding: 0 12px;
+      align-self: stretch;
+      color: #69727b;
+      justify-content: space-between;
+      align-items: flex-start;
+}
+.rew_1 {
+    align-self: stretch;
+    align-items: center;
+    width: 20%;
+}
+.rew_name {
+    color: #3d4246;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+.rew_item {
+    font-size: 13.5px;
+    color: #3d4246;
+    align-self: flex-start;
+}
+.rew_date {
+    color: #3d4246;
+    font-size: 11.25px;
+    align-self: flex-start;
+}
+.rec {
+    text-align: left;
+}
+.rec:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+  .about {
     padding: 0 35px;
     justify-content: start;
     align-items:start;
