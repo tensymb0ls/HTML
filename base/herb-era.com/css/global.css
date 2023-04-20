@@ -406,6 +406,41 @@ ul>li>button:hover {
     margin-left: 35px;
     align-self: flex-start;
 }
+.article p {
+    text-align: left;
+        
+}
+.article a {
+    color: #3d4246;
+    margin: 0 10px 5px 0;
+    display:inline-block;
+}
+.article img {
+        max-width: 517.5px;
+        max-height: 345px;
+        margin-bottom: 20px;
+
+}
+.article h4 {
+        font-size: 1.33333em;
+        text-transform: none;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+        text-align: left;
+}
+.date {
+    color: #3d4246 !important;
+}
+.article button {
+    color: #3d4246;
+    border-color: #3d4246;
+
+}
+.article button:hover {
+        box-shadow: 0 0 2px #1f2224;
+        color: #1f2224;
+        transition: 0.3s;
+}
 
 @media(max-width: 1280px) {
     nav {
@@ -444,6 +479,7 @@ ul>li>button:hover {
     .goods img {
         width: 130px;
     }
+   
     .promo {
         min-width: 250px;
     }
