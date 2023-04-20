@@ -1,0 +1,13 @@
+.characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.characters img {
+    max-width: 300px;
+}
+
+.parallax {
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+}
