@@ -12,7 +12,9 @@ body {
     font-size: 15px;
 
 }
-
+ul {
+    list-style: none;
+}
 .header {
     min-height: 100px;
     background-color: white;
@@ -206,12 +208,87 @@ section {
 section ul {
     list-style: none;
 }
+
 h3 {
     font-size: 15px;
 }
 .h3 { 
     color: #3d4246;
     letter-spacing: 0.1em;
+}
+footer {
+    background-color: #fdf9f0;
+    padding: 45px 35px;
+    margin: 55px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3d4246;
+}
+footer hr {
+    border-bottom: 1px solid #f7e7c3;
+    
+}
+.footer_box {
+    margin: 0 0 45px;
+    padding: 0 15px 0 0;
+       
+}
+.footer_box ul {
+list-style: none;
+align-items: start;
+}
+.footer_box ul li {
+    display: inline-block;
+    padding: 0 30px 5px 0;
+}
+
+.footer_box a {
+    color: #3d4246 !important;
+    text-decoration: none;
+}
+.footer_box a:hover {
+    color: #69727b !important;
+border-bottom: 1px solid #69727b;
+}
+.email {
+        margin: 5px 0 5px 0;
+        padding: 10px 10px;
+        width: 90%;
+        border: 1px solid grey;
+        border-radius: 2px 0 0 2px;
+        text-align: left;
+}
+.sub_butt {
+    width: 100%;
+    font-weight: 500;
+}
+.c {
+    font-size: 12px;
+    margin: 0 0 25px;
+}
+.space_btw {
+    justify-content: space-between;
+}
+.al_it_start {
+    align-items: start;
+}
+.foot_icons {
+    align-self: start;
+    flex: 1 1;
+    padding-top: 20px;
+}
+.foot_icons ul li {
+    padding-right: 30px;
+}
+.foot_icons ul li img {
+    width: 30px;
+}
+.payment-icons {
+    justify-content: right;
+}
+.font13 {
+    font-size: 13px;
 }
 button {
     user-select: none;
@@ -329,6 +406,9 @@ ul>li>button:hover {
 .w_pad_50 {
     padding: 0 50px;
 }
+.mb25 {
+    margin-bottom: 25px;
+}
   /* -------------- -------------------------------- */
 .rew_box {
     width: 865px;
@@ -412,8 +492,10 @@ ul>li>button:hover {
 }
 .article a {
     color: #3d4246;
-    margin: 0 10px 5px 0;
+    margin: 0 10px 10px 0;
     display:inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #3d4246;
 }
 .article img {
         max-width: 517.5px;
@@ -512,4 +594,19 @@ ul>li>button:hover {
         .rew_1 {
             width: 85vw;
         }
+
+.payment-icons ul li {
+    min-width: 0 !important;
+}
+.foot_icons {
+flex-direction: column;
+
+}
+.foot_icons ul li {
+    min-width: 0 !important;
+
+}
+.c {
+    align-self: center;
+}
 }
