@@ -1,0 +1,111 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 20px;
+    gap: 10px;
+}
+footer p {
+    grid-column: span 5;
+    color: aliceblue;
+    font-size: 14px;
+    justify-self: center;
+}
+/* ------------------------- margins and paddings */
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+/* ------------------------- footer items ------ */
+.footer-list {
+        grid-column: span 5;
+        justify-content: center;
+}
+/* ------------------------- header items ------ */
+.user {
+    grid-column: -2 / -1;
+    justify-content: center;
+}
+/* ------------------------- main items ------ */
+.parallax [class*="bg_"] {
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+}
+.parallax .bg_one {
+    background-image: url(./images/2.jpg);
+}
+.heading {
+    grid-column: 1 / -1;
+    font-size: 33px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+
+}
+.parallax .bg_two {
+    background-image: url(./images/ship_1800.jpeg);
+}
+.characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: max-content;
+    gap: 20px;
+}
+.character {
+    background: rgba(10, 20, 29, 0.494);
+    box-shadow: 0 0 5px rgb(13, 36, 69);
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    font-weight: 100;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: aliceblue;
+}
+.char_artw {
+    width: 100%;
+    align-self: end;
+}
+.light-side {
+    color: rgb(0, 195, 255);
+    text-shadow: 0 0 2px rgb(25, 36, 43);
+}
+.dark-side {
+    color: rgb(252, 52, 52);
+    text-shadow: 0 0 2px rgb(33, 17, 17);
+}
+.char_faculty {
+    align-self: start;
+    justify-self: center;
+}
+.char_det {
+    grid-row: span 2;
+    align-self: start;
+    transition: 0.2s;
+}
+/* -----------------------------Image hover effects--- */
+.char_artw:hover {
+    cursor: pointer;
+    position: relative;
+    transform: scale(1.1) translateX(5px);
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px rgb(0, 17, 35);
+    border-radius: 10px;
+}
+/* при наведении на изображение блок текста сдвигается вправо */
+.char_artw:hover ~ .char_det { 
+    transform: translateX(10px);
+}
+/* -------------------------------------------------- */
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

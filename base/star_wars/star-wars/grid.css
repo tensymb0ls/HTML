@@ -1,0 +1,50 @@
+.characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+.character {
+    background: rgba(89,89,89,0.5);
+    box-shadow: 0 0 5px white;
+    gap: 20px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    font-weight: 100;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.char_artw {
+    width: 100%;
+}
+.light-side {
+    color: rgb(0, 195, 255);
+    text-shadow: 0 0 2px rgb(25, 36, 43);
+}
+.dark-side {
+    color: rgb(252, 52, 52);
+    text-shadow: 0 0 2px rgb(33, 17, 17);
+}
+/* ---Image hover effects--- */
+.char_artw:hover {
+    cursor: pointer;
+    position: relative;
+    transform: scale(1.2) translateX(5px);
+    transition: 0.3s;
+    box-shadow: 0 0 5px rgb(34, 30, 30);
+    border-radius: 10px;
+}
+.char_det {
+    transition: 0.2s;
+}
+/* при наведении на изображение блок текста сдвигается вправо */
+.char_artw:hover ~ .char_det { 
+    transform: translateX(15px);
+}
+/* --------------------------- */
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
