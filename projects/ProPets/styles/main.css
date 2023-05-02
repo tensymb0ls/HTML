@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: #005546;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+header ul {
+    list-style: none;
+}
+p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    font-style: normal;
+}
+button {
+    padding: 10px;
+    border-radius: 30px;
+    min-width: 160px;
+    min-height: 55px;
+    box-shadow: 0px 5px 10px rgba(252, 104, 58, 0.25);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+        /* or 27px */
+    text-transform: capitalize;
+}
+
+.max_width {
+    width: 100%;
+    max-width: 1200px;
+}
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.flex_right {
+    justify-content: right;
+}
+.white {
+    color: white;
+}
+.orange {
+    color: #FF6231;
+}
