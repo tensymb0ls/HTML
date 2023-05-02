@@ -1,0 +1,29 @@
+/* Сlass names describe paddings amd magrins in abbreviated format, for example: 
+vp_20=(vertical padding 20) padding: 20px 0;
+ml_20=margin-left: 20px;
+etc.
+------------------PADDINGS---------------- */
+.pad_5 {
+    padding: 5px;
+}
+.vp_20 {
+    padding: 20px 0;
+}
+.vp_25 {
+    padding: 25px 0;
+}
+.hp_20 {
+    padding: 0 20px;
+}
+/* ___________________________________________ */
+/* ------------------MARGINS------------------ */
+.ml_20 {
+    margin-left: 20px;
+}
+.mr_20 {
+    margin-right: 20px;
+}
+.mr_15 {
+    margin-right: 15px;
+}
+/* ___________________________________________ */

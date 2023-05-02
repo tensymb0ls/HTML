@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+ <div class="bar">
+    <div class="colorBar">
+        <input type="color" name="color" id="color">
+        <input type="button" value="Fill in" id="fill" class="fill btn" onclick="fillIn()">
+        <input type="button" value="clear" id="clear" class="clear btn" onclick="clearAll()">
+    </div>
+ 
+<div class="lineWeightBar">
+    <input type="range" id="lineW" class="lineW" value="10" min="1" max="100">
+<span class="lineWeightValue" id="lineWeightValue">100</span>
+</div>
+</div>
+<canvas class="canvas" id="canvas"></canvas>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.social_block {
+    gap: 10px;
+    justify-self: right;
+}
+
+.social_block img {
+    width: 20px;
+}
+.welcome {
+    min-height: 100vh;
+    background-image: url(../images/welcome_main_bg.svg);
+    background-size: cover;
+}
+.main {
+    margin: auto;
+    color: white;
+    gap: 70px;
+}
+.main_content {
+    justify-content: center;
+    gap: 25px;
+}
+.main_content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.circle img {
+    max-height: 665px;
+}
+.transparent_btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.gradient_btn {
+    background: #FF6231;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FF6231FD, #FFA979FD);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right,  #FF6231FD, #FFA979FD);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border: none;
+        color: white;
+}
