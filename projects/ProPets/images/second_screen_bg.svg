@@ -1,0 +1,20 @@
+<svg width="1733" height="1360" viewBox="0 0 1733 1360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3">
+<circle cx="1480" cy="92" r="5" fill="#005546"/>
+<circle cx="1661" cy="374" r="10" fill="#005546"/>
+<circle cx="1660.5" cy="76.5" r="3.5" fill="#005546"/>
+<circle cx="1594.5" cy="231.5" r="2.5" fill="#005546"/>
+<circle cx="1636" cy="25" r="21.5" stroke="#005546" stroke-width="7"/>
+<circle cx="1475" cy="277" r="12.5" stroke="#005546" stroke-width="5"/>
+<circle cx="1725.5" cy="254.5" r="6" stroke="#005546" stroke-width="3"/>
+</g>
+<g opacity="0.3">
+<circle cx="253" cy="1268" r="5" transform="rotate(180 253 1268)" fill="#005546"/>
+<circle cx="72" cy="986" r="10" transform="rotate(180 72 986)" fill="#005546"/>
+<circle cx="72.5" cy="1283.5" r="3.5" transform="rotate(180 72.5 1283.5)" fill="#005546"/>
+<circle cx="138.5" cy="1128.5" r="2.5" transform="rotate(180 138.5 1128.5)" fill="#005546"/>
+<circle cx="97" cy="1335" r="21.5" transform="rotate(180 97 1335)" stroke="#005546" stroke-width="7"/>
+<circle cx="258" cy="1083" r="12.5" transform="rotate(180 258 1083)" stroke="#005546" stroke-width="5"/>
+<circle cx="7.5" cy="1105.5" r="6" transform="rotate(180 7.5 1105.5)" stroke="#005546" stroke-width="3"/>
+</g>
+</svg>

@@ -7,26 +7,81 @@
     width: 20px;
 }
 .welcome {
-    min-height: 100vh;
+    padding-bottom: 22vh;
     background-image: url(../images/welcome_main_bg.svg);
     background-size: cover;
+}
+.nav {
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    width: 175px;
+}
+.menu {
+    width: 80%;
+    justify-content: space-between;
+}
+.menu ul {
+    width: 100%;
+        justify-content: space-between;
+        align-items: center;
+}
+.menu ul li, .burger_menu {
+    white-space: nowrap;
+}
+.burger {
+    font-size: 48px;
+    display: none;
+}
+.burger_menu {
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    transform: translateX(-70%);
+}
+.burger_menu ul {
+    list-style: none;
+    padding: 25px 15px;
+    gap: 25px;
+    background: #FF6231;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(180deg, #FF6231FD, #FFA979FD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(180deg, #FF6231FD, #FFA979FD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.burger:hover .burger_menu {
+    display: flex;
+}
+.nodec {
+    list-style: none;
 }
 .main {
     margin: auto;
     color: white;
     gap: 70px;
+    margin-top: 10vh;
 }
 .main_content {
-    justify-content: center;
     gap: 25px;
+    flex-shrink: 2;
 }
 .main_content h1 {
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
+    max-width: 680px;
 }
+.main_img {
+        align-items: center;
+        flex-shrink: 1;
+}
+
 .circle img {
     max-height: 665px;
+    width: 100%;
 }
 .transparent_btn {
     background: transparent;
@@ -42,4 +97,84 @@
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         border: none;
         color: white;
+}
+.signup {
+    padding: 10px 20px;
+}
+/* -------------- second block ------------- */
+.second_screen {
+    width: 90vw;
+    justify-content: center;
+    margin: auto;
+    background-position: bottom;
+    background-size: contain;
+    background-image: url(../images/second_screen_bg.svg);
+}
+.second_screen p, ul li {
+    color: #888888;
+    padding: 20px 0;
+}
+.second_screen h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.second_screen ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+}
+.second_screen ul li {
+    background-image: url('../icons/we_are_li.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.container {
+    gap: 200px;
+}
+.we_are {
+    justify-content: center;
+    gap: 60px;
+}
+.we_are p, .created_4 p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+.created_4 p {
+    text-align: center;
+}
+.we_are_content {
+    max-width: 550px;
+}
+.we_are_img {
+    max-width: 550px;
+}
+.cards {
+    gap: 25px;
+}
+.created_card {
+    padding: 45px;
+    width: 360px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 80, 61, 0.2);
+    border-radius: 20px;
+    gap: 20px;
+}
+.created_card p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+}
+.created_card h5 {
+    font-size: 20px;
+}
+.created_card img {
+    width: 100%;
 }

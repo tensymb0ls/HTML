@@ -1,12 +1,133 @@
-@media (max-width: 480px) {
-     .social_block img {
-            width: 15px;
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+        .main {
+                margin-top: 5vh;
+            }
+    .main_content h1 {
+            font-size: 40px;
+            line-height: 130%;
+        }
+    
+        .p1 {
+            font-size: 18px;
+        }
+    
+        .p2 {
+            font-size: 16px;
+        }
+      .signup {
+          display: none;
+      }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    .main {
+            margin-top: 2vh;
+        }
+    .main_content h1 {
+            font-size: 35px;
+            line-height: 130%;
         }
 
+        .p1 {
+            font-size: 16px;
+        }
+    
+        .p2 {
+            font-size: 14px;
+        }
+      .menu {
+          display: none;
+      }
+    .burger {
+        display: block;
+          }
+     .soc_pad {
+        padding-right: 0;
+        }
 }
-@media (max-width: 1200px) {
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
     .main {
             flex-direction: column;
             flex-flow: column-reverse;
+            gap: 25px;
+            margin-top: 0;
+        }
+        .main_img {
+            justify-content: center;
+        }
+        .circle {
+            background-image: url(../images/circle.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .circle img {
+            width: 100%;
+            max-height: 300px;
+                }
+        .main_content h1 {
+            font-size: 30px;
+            line-height: 130%;
+        }
+    
+        .p1 {
+            font-size: 16px;
+        }
+    
+        .p2 {
+            font-size: 14px;
+        }
+        .v_pad_25_10 {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .max_width {
+            width: 90vw;
+        }
+    
+        .social_block img {
+            width: 15px;
+        }
+    
+        .circle img {
+            max-height: 210px;
+            width: 100%;
+        }
+    
+        .main {
+            gap: 25px;
+        }
+    
+        .main_content h1 {
+            font-size: 30px;
+            line-height: 130%;
+            text-align: center;
+        }
+    
+        .p1 {
+            font-size: 16px;
+            text-align: center;
+        }
+    
+        .p2 {
+            font-size: 14px;
+            text-align: center;
+        }
+    
+        .buttons {
+            justify-content: space-between;
+            max-width: 90vw;
+            margin: 0 15px;
         }
 }
