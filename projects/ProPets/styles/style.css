@@ -43,14 +43,16 @@
 }
 .burger_menu ul {
     list-style: none;
-    padding: 25px 15px;
-    gap: 25px;
+    padding: 20px 15px;
     background: #FF6231;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(180deg, #FF6231FD, #FFA979FD);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(180deg, #FF6231FD, #FFA979FD);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.burger_menu ul li {
+    padding: 10px 0;
 }
 .burger:hover .burger_menu {
     display: flex;
@@ -63,16 +65,18 @@
     color: white;
     gap: 70px;
     margin-top: 10vh;
+    justify-content: space-between;
 }
 .main_content {
     gap: 25px;
     flex-shrink: 2;
 }
-.main_content h1 {
+.main_content h1, h3, h4 {
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
     max-width: 680px;
+    text-transform: capitalize;
 }
 .main_img {
         align-items: center;
@@ -80,7 +84,7 @@
 }
 
 .circle img {
-    max-height: 665px;
+    max-height: 800px;
     width: 100%;
 }
 .transparent_btn {
@@ -101,7 +105,7 @@
 .signup {
     padding: 10px 20px;
 }
-/* -------------- second block ------------- */
+/* -------------- second screen ------------- */
 .second_screen {
     width: 90vw;
     justify-content: center;
@@ -150,13 +154,19 @@
 }
 .we_are_content {
     max-width: 550px;
+    flex-shrink: 3;
 }
 .we_are_img {
     max-width: 550px;
+    flex-shrink: 1;
+}
+.we_are_img img {
+        width: 100%;
 }
 .cards {
     gap: 25px;
 }
+/* TODO: покакой-то причине правый див в определнный момент перестает сжиматься в ущерб другим дивам */
 .created_card {
     padding: 45px;
     width: 360px;
@@ -164,6 +174,9 @@
     box-shadow: 0px 10px 20px rgba(31, 80, 61, 0.2);
     border-radius: 20px;
     gap: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 360px;
 }
 .created_card p {
     font-style: normal;
@@ -174,7 +187,94 @@
 }
 .created_card h5 {
     font-size: 20px;
+    text-align: center;
 }
 .created_card img {
     width: 100%;
+
+}
+/* ------------------We have application block --------------*/
+.bg_2 {
+        background-image: url(../images/we_have_application_bg.svg);
+        background-size: cover;
+}
+.bg_2 .main {
+    padding-bottom: 120px;
+}
+.app_p {
+    font-size: 16px;
+    line-height: 170%;
+    flex-shrink: 2;
+}
+.gradient_btn img,
+.transparent_btn img {
+    position: relative;
+    transform: translateY(15%); 
+}
+.center {
+    justify-content: center;
+    max-width: 50%;
+    
+}
+.center button {
+    width: 175px;
+}
+/* ---------------- third sceen -------------------*/
+.third_screen {
+    justify-content: center;
+    background-position: bottom;
+    background-size: contain;
+    background-image: url(../images/third_block_bg.svg);
+}
+/* ------------they say about us --------------- */
+.card {
+        padding: 45px;
+            width: 360px;
+            background: #FFFFFF;
+            box-shadow: 0px 10px 20px rgba(31, 80, 61, 0.2);
+            border-radius: 20px;
+            gap: 20px;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 360px;
+}
+.card p {
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+     line-height: 170%;
+    /* or 27px */
+    color: #888888;
+}
+.author {
+    align-items: center;
+    margin-top: 25px;
+}
+
+.author p {
+    color: #141515;
+    margin-left: 20px;
+}
+/* ------------join our community------------------ */
+.bg_3 {
+        background-color: #005546;
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../images/join_our_comm_bg.svg);
+        height: 700px;
+        border-radius: 20px;
+        justify-content: space-between;
+}
+/* .join_img img {
+    height: 95%;
+    max-width: 100%;
+} */
+.join_img {
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../images/join_img.svg);
+        align-items: flex-end;
 }

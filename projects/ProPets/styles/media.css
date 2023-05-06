@@ -6,7 +6,7 @@
         .main {
                 margin-top: 5vh;
             }
-    .main_content h1 {
+    .main_content h1, h3 {
             font-size: 40px;
             line-height: 130%;
         }
@@ -21,6 +21,12 @@
       .signup {
           display: none;
       }
+      .app_p {
+        font-size: 14;
+      }
+    .bg_2 .main {
+        padding-bottom: 0;
+    }
 }
 
 /* Portrait tablets and small desktops */
@@ -28,7 +34,7 @@
     .main {
             margin-top: 2vh;
         }
-    .main_content h1 {
+    .main_content h1, h3 {
             font-size: 35px;
             line-height: 130%;
         }
@@ -49,6 +55,34 @@
      .soc_pad {
         padding-right: 0;
         }
+        .we_are_content h2,
+        .created_4 h2 {
+            font-size: 40px;
+                }
+        .we_are_content p,
+        .created_4 p {
+            font-size: 16px;
+                }
+        .second_screen ul li {
+            font-size: 14px;
+        }
+        .container {
+            gap: 100px;
+        }
+
+.created_card p {
+    font-size: 14px;
+}
+.created_card h5 {
+    font-size: 16px;
+}
+   .created_card img {
+       width: 70%;
+   }
+   .center {
+            margin-bottom: 100px;
+            margin-top: 60px;
+   }
 }
 
 /* Landscape phones and portrait tablets */
@@ -72,7 +106,7 @@
             width: 100%;
             max-height: 300px;
                 }
-        .main_content h1 {
+        .main_content h1, h3 {
             font-size: 30px;
             line-height: 130%;
         }
@@ -88,6 +122,30 @@
             padding-top: 15px;
             padding-bottom: 15px;
         }
+        .we_are {
+            flex-direction: column;
+            text-align: center;
+        }
+        .we_are_img {
+            width: 40vw;
+        }
+        .created_4 {
+            text-align: center;
+        }
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .center {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-top: 0;
+    }
+.center .buttons {
+    width: 70vw;
+    justify-content: space-between;
+}
 }
 
 /* Landscape phones and smaller */
@@ -109,7 +167,7 @@
             gap: 25px;
         }
     
-        .main_content h1 {
+        .main_content h1, h3 {
             font-size: 30px;
             line-height: 130%;
             text-align: center;
@@ -130,4 +188,32 @@
             max-width: 90vw;
             margin: 0 15px;
         }
+        .we_are_content h2,
+         .created_4 h2 {
+            font-size: 30px;
+        }
+            
+         .we_are_content p,
+         .created_4 p {
+             font-size: 14px;
+        }
+        .second_screen ul li {
+          font-size: 12px;
+        }
+        .created_card p {
+    font-size: 12px;
+}
+        .created_card h5 {
+    font-size: 14px;
+}
+   .created_card {
+    gap: 5px;
+   }
+   .app_p {
+    font-size: 12px;
+   }
+   .center .buttons {
+       width: 80vw;
+       justify-content: space-between;
+   }
 }
