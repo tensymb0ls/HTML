@@ -240,7 +240,7 @@
     width: 100%;
   }
   .whats_new {
-    grid-area: 1/1/-1/-1;
+    grid-area: 1/1/2/-1;
   }
   footer .soc_pad {
     justify-content: center;
