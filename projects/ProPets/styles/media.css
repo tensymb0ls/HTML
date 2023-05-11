@@ -175,7 +175,8 @@
 
   .p2,
   .slider p,
-  .news p {
+  .news p,
+  .whats_new p {
     font-size: 14px;
   }
   .news h5 {
