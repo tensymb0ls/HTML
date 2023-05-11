@@ -1,0 +1,20 @@
+<svg width="1734" height="1062" viewBox="0 0 1734 1062" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3">
+<circle cx="5" cy="5" r="5" transform="matrix(-1 0 0 1 258.991 87)" fill="#005546"/>
+<circle cx="10" cy="10" r="10" transform="matrix(-1 0 0 1 82.9951 364)" fill="#005546"/>
+<circle cx="3.5" cy="3.5" r="3.5" transform="matrix(-1 0 0 1 76.9854 73)" fill="#005546"/>
+<circle cx="2.5" cy="2.5" r="2.5" transform="matrix(-1 0 0 1 141.985 229)" fill="#005546"/>
+<circle cx="25" cy="25" r="21.5" transform="matrix(-1 0 0 1 122.995 0)" stroke="#005546" stroke-width="7"/>
+<circle cx="15" cy="15" r="12.5" transform="matrix(-1 0 0 1 273.991 262)" stroke="#005546" stroke-width="5"/>
+<circle cx="7.5" cy="7.5" r="6" transform="matrix(-1 0 0 1 15.9883 247)" stroke="#005546" stroke-width="3"/>
+</g>
+<g opacity="0.3">
+<circle cx="5" cy="5" r="5" transform="matrix(1 0 0 -1 1476 975)" fill="#005546"/>
+<circle cx="10" cy="10" r="10" transform="matrix(1 0 0 -1 1651.99 698)" fill="#005546"/>
+<circle cx="3.5" cy="3.5" r="3.5" transform="matrix(1 0 0 -1 1658 989)" fill="#005546"/>
+<circle cx="2.5" cy="2.5" r="2.5" transform="matrix(1 0 0 -1 1593 833)" fill="#005546"/>
+<circle cx="25" cy="25" r="21.5" transform="matrix(1 0 0 -1 1611.99 1062)" stroke="#005546" stroke-width="7"/>
+<circle cx="15" cy="15" r="12.5" transform="matrix(1 0 0 -1 1461 800)" stroke="#005546" stroke-width="5"/>
+<circle cx="7.5" cy="7.5" r="6" transform="matrix(1 0 0 -1 1719 815)" stroke="#005546" stroke-width="3"/>
+</g>
+</svg>
