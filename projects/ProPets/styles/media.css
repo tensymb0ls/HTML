@@ -241,6 +241,7 @@
   }
   .whats_new {
     grid-area: 1/1/2/-1;
+    justify-content: center;
   }
   footer .soc_pad {
     justify-content: center;
@@ -306,6 +307,9 @@
   }
   .second_screen ul li {
     font-size: 12px;
+  }
+  .card {
+    padding: 30px;
   }
   .created_card p {
     font-size: 12px;
