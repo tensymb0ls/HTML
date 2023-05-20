@@ -1,12 +1,12 @@
 /* Large desktops and laptops */
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
   .main {
     margin-top: 5vh;
   }
+
   .main_content h1,
   h3,
   h4 {
@@ -21,32 +21,40 @@
   .p2 {
     font-size: 16px;
   }
+
   .signup {
     display: none;
   }
+
   .app_p {
     font-size: 14;
   }
+
   .bg_2 .main {
     padding-top: 30px;
     padding-bottom: 0;
   }
+
   .join_img {
     grid-area: 1/1/-1/-1;
   }
+
   .join {
     grid-area: 1/1/-1/-2;
     padding: 40px;
     gap: 15px;
   }
+
   .c1 {
     grid-area: 2/1/-1/4;
     width: 100%;
   }
+
   .c2 {
     grid-area: 2/4/-1/-1;
     width: 100%;
   }
+
   .whats_new {
     grid-area: 1/1/2/-1;
     padding: 0 20px;
@@ -58,6 +66,7 @@
   .main {
     margin-top: 2vh;
   }
+
   .main_content h1,
   h3,
   h4 {
@@ -72,28 +81,35 @@
   .p2 {
     font-size: 14px;
   }
+
   .menu {
     display: none;
   }
+
   .burger {
     display: block;
   }
+
   .soc_pad {
     padding-right: 0;
   }
+
   .we_are_content h2,
   .created_4 h2,
   .bg_3 h4,
   .faq_content h4 {
     font-size: 40px;
   }
+
   .we_are_content p,
   .created_4 p {
     font-size: 16px;
   }
+
   .second_screen ul li {
     font-size: 14px;
   }
+
   .container {
     gap: 100px;
   }
@@ -101,38 +117,48 @@
   .created_card p {
     font-size: 14px;
   }
+
   .created_card h5 {
     font-size: 16px;
   }
+
   .created_card img {
     width: 70%;
   }
+
   .center {
     margin-bottom: 100px;
     margin-top: 60px;
   }
+
   .bg_2 {
     padding: 30px 0;
   }
+
   .join_img {
     background-size: cover;
     overflow: hidden;
   }
+
   .cards {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .faq {
     flex-direction: column;
     flex-flow: column-reverse;
     align-items: center;
   }
+
   footer .nav {
     justify-content: center;
   }
+
   footer .soc_pad {
     flex-wrap: wrap;
   }
+
   footer {
     padding-top: 100px;
   }
@@ -146,25 +172,30 @@
     gap: 25px;
     margin-top: 0;
   }
+
   .main_img {
     justify-content: center;
   }
+
   .circle {
     background-image: url(../images/circle.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
   }
+
   .circle img {
     width: 100%;
     max-height: 300px;
   }
+
   .main_content h1,
   h3,
   h4 {
     line-height: 130%;
     text-align: center;
   }
+
   .main_content h1 {
     margin-top: 0;
   }
@@ -179,20 +210,25 @@
   .whats_new p {
     font-size: 14px;
   }
+
   .news h5 {
     font-size: 18px;
   }
+
   .v_pad_25_10 {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .we_are {
     flex-direction: column;
     text-align: center;
   }
+
   .we_are_img {
     width: 40vw;
   }
+
   .created_4 {
     text-align: center;
   }
@@ -203,46 +239,63 @@
     align-items: center;
     margin-top: 0;
   }
+
+  .buttons {
+    justify-content: center;
+    gap: 30px;
+  }
+
   .center .buttons {
     width: 70vw;
     justify-content: space-between;
   }
+
   .bg_2 {
     padding: 0;
   }
+
   .bg_2 .main {
     padding-bottom: 30px;
   }
+
   .bg_3 h4 {
     font-size: 40px;
     text-align: center;
     text-shadow: 2px 2px 3px rgb(2, 19, 12);
   }
+
   .bg_3 p {
     text-align: center;
   }
+
   .join {
     grid-area: 1/1/-1/-1;
     padding: 40px 20px;
   }
+
   .socials {
     justify-content: center;
   }
+
   .i_agree {
     justify-content: center;
   }
+
   .c1 {
     grid-area: 2/1/3/-1;
     width: 100%;
   }
+
   .c2 {
     grid-area: 3/1/-1/-1;
     width: 100%;
   }
+
   .whats_new {
     grid-area: 1/1/2/-1;
     justify-content: center;
   }
+
   footer .soc_pad {
     justify-content: center;
     text-align: center;
@@ -275,10 +328,12 @@
     line-height: 130%;
     text-align: center;
   }
+
   .bg_3 h4,
   .faq_content h4 {
     font-size: 30px;
   }
+
   .p1 {
     font-size: 16px;
     text-align: center;
@@ -288,14 +343,18 @@
     font-size: 14px;
     text-align: center;
   }
+
   .bg_2 .main {
     padding-bottom: 0;
   }
+
   .buttons {
     justify-content: space-between;
     max-width: 90vw;
     margin: 0 15px;
+    gap: 0;
   }
+
   .we_are_content h2,
   .created_4 h2 {
     font-size: 30px;
@@ -305,31 +364,40 @@
   .created_4 p {
     font-size: 14px;
   }
+
   .second_screen ul li {
     font-size: 12px;
   }
+
   .card {
     padding: 30px;
   }
+
   .created_card p {
     font-size: 12px;
   }
+
   .created_card h5 {
     font-size: 14px;
   }
+
   .created_card {
     gap: 5px;
   }
+
   .app_p {
     font-size: 12px;
   }
+
   .center .buttons {
     width: 80vw;
     justify-content: space-between;
   }
+
   .i_agree {
     flex-wrap: wrap;
   }
+
   .collapsible {
     font-size: 14px;
   }
